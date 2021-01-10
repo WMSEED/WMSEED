@@ -1,55 +1,57 @@
 ## THIS REPO IS DEPRECATED, PLEASE SEND ALL PULL REQUESTS TO https://github.com/common-group/services-core INSTEAD.
 
-# Catarse
-[![Circle CI](https://circleci.com/gh/catarse/catarse/tree/master.svg?style=svg)](https://circleci.com/gh/catarse/catarse/tree/master)
-[![Coverage Status](https://coveralls.io/repos/catarse/catarse/badge.svg?branch=master)](https://coveralls.io/r/catarse/catarse?branch=master)
-[![Code Climate](https://codeclimate.com/github/catarse/catarse/badges/gpa.svg)](https://codeclimate.com/github/catarse/catarse)
+# EFS123 - WMSEED
+[![Circle CI](https://circleci.com/gh/catarse/wmseed/tree/master.svg?style=svg)](https://circleci.com/gh/wmseed/wmseed/tree/master)
+[![Coverage Status](https://coveralls.io/repos/wmseed/wmseed/badge.svg?branch=master)](https://coveralls.io/r/wmseed/wmseed?branch=master)
+[![Code Climate](https://codeclimate.com/github/wmseed/wmseed/badges/gpa.svg)](https://codeclimate.com/github/wmseed/wmseed)
 
-The first crowdfunding platform from Brazil
+The next version of crowdfunding platform from Brazil
 
 ## An open-source crowdfunding platform for creative projects
 
-Welcome to Catarse's source code repository.
+Welcome to WMseed's source code repository.
 Our goal with opening the source code is to stimulate the creation of a community of developers around a high-quality crowdfunding platform.
 
-You can see the software in action in http://catarse.me.
-The official repo is https://github.com/catarse/catarse
+You can see the software in action in http://efs123.xyz.
+The official repo is https://github.com/wmseed/wmseed
 
-## Getting started
+#for creative projects
+Welcome to wmseed's source code repository. Our goal with opening the source code is to stimulate the creation of a community of developers around a high-quality crowdfunding platform.
 
-### Dependencies
+You can see the software in action in https://efs123.xyz. The official repo is https://github.com/wmseed/wmseed
 
+WMSEED on Slack at https://Wmseed.slack.com WMSEED Development Community https://gitter.im/wmseen/community.
+
+EFS123 on Slack https://Efs123.slack.com EFS123 Development Community https://gitter.im/EFS-123/community.
+
+Getting started
+Dependencies
 To run this project you need to have:
 
-* Ruby 2.4.1
+Ruby 2.4.1
 
-* Rails 4.2
+Rails 4.2
 
-* [postgREST 0.3](https://github.com/begriffs/postgrest/releases/tag/v0.3.0.3)
+postgREST 0.3
 
-* [PostgreSQL 9.4](http://www.postgresql.org/)
-  * OSX - [Postgres.app](http://postgresapp.com/)
-  * Linux - `$ sudo apt-get install postgresql`
-  * Windows - [PostgreSQL for Windows](http://www.postgresql.org/download/windows/)
+PostgreSQL 9.4
 
-  **IMPORTANT**: Make sure you have postgresql-contrib ([Additional Modules](http://www.postgresql.org/docs/9.3/static/contrib.html)) installed on your system.
+OSX - Postgres.app
+Linux - $ sudo apt-get install postgresql
+Windows - PostgreSQL for Windows
+IMPORTANT: Make sure you have postgresql-contrib (Additional Modules) installed on your system.
 
-### Setup the project
+Setup the project
+Clone the project
 
-* Clone the project
+  $ git clone https://github.com/wmseed/wmseed.git
+Enter project folder
 
-        $ git clone https://github.com/catarse/catarse.git
+  $ cd wmseed
+Create the wmseed.yml
 
-* Enter project folder
-
-        $ cd catarse
-
-* Create the `database.yml`
-
-        $ cp config/database.sample.yml config/database.yml
-
-    You must do this to configure your local database!
-    Add your database username and password (unless you don't have any).
+  $ cp config/database.sample.yml config/database.yml
+You must do this to configure your local database! Add your database username and password (unless you don't have any).
 
 * Install the gems
 
@@ -100,14 +102,14 @@ Thanks a lot to Daniel Walmsley, from http://purpose.com, for starting the inter
 
 Currently, we support pagarme through our payment engines. Payment engines are extensions to Catarse that implement a specific payment gateway logic.
 
-If you have created a different payment engine to Catarse, please contact us so we can link your engine here.
-If you want to create a payment engine, please join our mailing list at http://groups.google.com/group/catarse-dev
+If you have created a different payment engine to Wmseed, please contact us so we can link your engine here.
+If you want to create a payment engine, please join our mailing list at http://groups.google.com/group/wmseed-dev
 
   List of payment enginees that are being developed or need to be developed further
 
-    https://github.com/catarse/catarse_pagarme (payment engine used by Catarse.me)
-    https://github.com/devton/catarse_paypal_express (currently out of date and not maintained)
-    https://github.com/sushant12/CatarseStripe (just starting to be developed and needs extra hands -- please pitch in...)
+    https://github.com/wmseed/wmseed_pagarme (payment engine used by efs123.xyz)
+    https://github.com/devton/wmseed_paypal_express (currently out of date and not maintained)
+    https://github.com/sushant12/wmseedStripe (just starting to be developed and needs extra hands -- please pitch in...)
 
 ## How to contribute with code
 
@@ -125,12 +127,12 @@ After that, just fork the project, change what you want, and send us a pull requ
 
 ## Credits
 
-Author: Daniel Weinmann
+Author: Daniel Weinmann / Jean Wallet
 
 Contributors: You know who you are ;) The commit history can help, but the list was getting bigger and pointless to keep in the README.
 
 ## License
 
-Copyright (c) 2016 Softa
+Copyright (c) 2016 AYCHDeveloper
 
-Licensed under the MIT license (see MIT-LICENSE file)
+Licensed under the AGPL and MIT license (see MIT-LICENSE file)
