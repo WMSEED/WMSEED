@@ -48,10 +48,10 @@ puts 'Seeding the database...'
 
 
 {
-  company_name: 'Catarse',
-  company_logo: 'http://catarse.me/assets/catarse_bootstrap/logo_icon_catarse.png',
-  host: 'catarse.me',
-  base_url: "http://catarse.me",
+  company_name: 'Wmseed',
+  company_logo: 'http://efs123.xyz/assets/wmseed_bootstrap/logo_icon_wmseed.png',
+  host: 'efs123.xyz',
+  base_url: "http://efs123.xyz",
 
   email_contact: 'contato@catarse.me',
   email_payments: 'financeiro@catarse.me',
@@ -64,11 +64,11 @@ puts 'Seeding the database...'
   twitter_username: "catarse",
   mailchimp_url: "http://catarse.us5.list-manage.com/subscribe/post?u=ebfcd0d16dbb0001a0bea3639&amp;id=149c39709e",
   catarse_fee: '0.13',
-  support_forum: 'http://suporte.catarse.me/',
-  base_domain: 'catarse.me',
+  support_forum: 'https://gitter.im/efs-123/community',
+  base_domain: 'efs123.xyz',
   uservoice_secret_gadget: 'change_this',
   uservoice_key: 'uservoice_key',
-  faq_url: 'http://suporte.catarse.me/',
+  faq_url: 'http://efs123.slack.com/',
   feedback_url: 'http://suporte.catarse.me/forums/103171-catarse-ideias-gerais',
   terms_url: 'http://suporte.catarse.me/knowledgebase/articles/161100-termos-de-uso',
   privacy_url: 'http://suporte.catarse.me/knowledgebase/articles/161103-pol%C3%ADtica-de-privacidade',
