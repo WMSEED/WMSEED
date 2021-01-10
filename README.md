@@ -15,16 +15,13 @@ Our goal with opening the source code is to stimulate the creation of a communit
 You can see the software in action in http://efs123.xyz.
 The official repo is https://github.com/wmseed/wmseed
 
-#for creative projects
-Welcome to wmseed's source code repository. Our goal with opening the source code is to stimulate the creation of a community of developers around a high-quality crowdfunding platform.
+WMSEED on Slack at https://Wmseed.slack.com 
+WMSEED Development Community https://gitter.im/wmseen/community.
 
-You can see the software in action in https://efs123.xyz. The official repo is https://github.com/wmseed/wmseed
+EFS123 on Slack https://Efs123.slack.com 
+EFS123 Development Community https://gitter.im/EFS-123/community.
 
-WMSEED on Slack at https://Wmseed.slack.com WMSEED Development Community https://gitter.im/wmseen/community.
-
-EFS123 on Slack https://Efs123.slack.com EFS123 Development Community https://gitter.im/EFS-123/community.
-
-Getting started
+# Getting started
 Dependencies
 To run this project you need to have:
 
